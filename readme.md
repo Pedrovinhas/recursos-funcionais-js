@@ -16,11 +16,11 @@
 ---
 ## Índice
 
-* [Introdução](##-Introdução)
-* [Closure](##-Closure)
-* [Currying](##-Currying)
-* [High Order Function](##-HighOrderFunction)
-* [Anonymous Function](##-AnonymousFunction)
+- [Introdução](#-Introdução)
+- [Closure](#-Closure)
+- [Currying](#-Currying)
+- [High Order Function](#-High-Order-Function)
+- [Anonymous Function](##-Anonymous-Function)
 
 
 ---
@@ -44,7 +44,7 @@ Currying reduz a reprodução da função, quebrando em partes. Dessa forma tran
 * Criação de funções específicas.
 * Partial application (função é aplicada a somente uma parte dos parâmetros, e retorna outra função que espera os parametros restantes).
 ---
-## High Order Functions 👑
+## High Order Function 👑
 
 Uma função é de ordem superior quando passamos uma função como parâmetro, como se fosse um valor qualquer, ou quando retornamos uma função como resultado.
 #### Aplicabilidade
