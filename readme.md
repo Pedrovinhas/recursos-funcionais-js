@@ -87,4 +87,4 @@ $ HighOrderFunction.js
 ```
 
 ---
-> Feito por Pedro Henrique Vinhas 
+> Feito por Pedro Henrique Vinhas 🪐
