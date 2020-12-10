@@ -29,34 +29,40 @@ Trabalho desenvolvido durante a matéria de Paradigmas de Linguagens com o intui
 
 ---
 ## Closure 🔒 
-Quando uma função lembra seu escopo léxico (onde a função foi definida) mesmo quando a função é executada fora desse escopo. As Variáveis definidas fora da função são disponíveis dentro da função, como cada escopo tem acesso ao que está fora dela.
+Quando uma função lembra seu escopo léxico (onde a função foi definida) mesmo quando a função é executada fora desse escopo. As variáveis definidas fora da função são disponíveis dentro da função, como cada escopo tem acesso ao que está fora dela. Portanto temos um código assincrono, enclausurado e independente.
 #### Aplicabilidade
-* Uso para request, quando termina, envia uma mensagem.
-* Cria um código assincrono, enclausurado e independente.
-* It’s just a child function having access to its parents function
+* Uso para request, quando termina, envia uma mensagem..
+* Variáveis privadas, só acessada por determinado parâmetro.
+* Gerador de eventos (função é ativada a partir de uma condição).
 
 ---
 
 ## Currying 🍛
 Currying reduz a reprodução da função, quebrando em partes. Dessa forma transformamos a função que recebe múltiplos argumentos ou parâmetros, e os acessamos um de cada vez.
 
+#### Aplicabilidade
+* Criação de funções específicas.
+* Partial application (função é aplicada a somente uma parte dos parâmetros, e retorna outra função que espera os parametros restantes).
 ---
 ## High Order Functions 👑
 
 Uma função é de ordem superior quando passamos uma função como parâmetro, como se fosse um valor qualquer, ou quando retornamos uma função como resultado.
 #### Aplicabilidade
-* map
-* filter
+* map.
+* filter.
+* reduce.
+* find.
+* forEach.
+* sort.
 
 ---
 ## Anonymous Function 🕶
-Além de não tem identificação no escopo de execução, as funções anônimas também podem ser atribuídas a variáveis e acessadas através delas. Possuem maior flexibilidade para ser encaixada dentro de outras funções.
+Além de não tem identificação no escopo de execução, as funções anônimas também podem ser atribuídas a variáveis e acessadas através delas. Possuem maior flexibilidade para ser encaixada dentro de outras funções e dão clareza ao código.
 #### Aplicabilidade
-* Clareza no código
-* map
-* filter
-* sorted
-* groupby
+* map.
+* filter.
+* sorted.
+* groupby.
 ---
 
 ## Como usar 🔧
@@ -65,7 +71,7 @@ Além de não tem identificação no escopo de execução, as funções anônima
 git clone https
 
 # Entre no diretório
-$ cd JSparadigma
+$ cd paradigmas js
 
 # Instale as dependências
 $ npm install
