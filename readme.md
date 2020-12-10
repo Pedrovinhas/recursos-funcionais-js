@@ -16,11 +16,12 @@
 ---
 ## Índice
 
-- [Introdução](#-Introdução)
-- [Closure](#-Closure)
-- [Currying](#-Currying)
-- [High Order Function](#-High-Order-Function)
-- [Anonymous Function](##-Anonymous-Function)
+- [Introdução](#-Introdução-🧾)
+- [Closure](#-Closure-🔒)
+- [Currying](#-Currying-🍛)
+- [High Order Function](#-High-Order-Function-👑)
+- [Anonymous Function](#-Anonymous-Function-🕶)
+- [Como usar](#-Como-usar-🔧)
 
 
 ---
