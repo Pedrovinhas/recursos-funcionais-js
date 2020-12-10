@@ -5,7 +5,7 @@
 
 <div align="center">
 
-# Recursos funcionas em Java Script
+# Recursos funcionas em Javascript
 
 </div>
 
@@ -16,7 +16,7 @@
 ---
 ## Índice
 
-- [Introdução](#-Introdução-🧾)
+- [Introdução](#-Introdução-)
 - [Closure](#-Closure-🔒)
 - [Currying](#-Currying-🍛)
 - [High Order Function](#-High-Order-Function-👑)
