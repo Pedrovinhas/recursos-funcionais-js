@@ -17,11 +17,11 @@
 ## Índice
 
 - [Introdução](#-Introdução-)
-- [Closure](#-Closure-🔒)
-- [Currying](#-Currying-🍛)
-- [High Order Function](#-High-Order-Function-👑)
-- [Anonymous Function](#-Anonymous-Function-🕶)
-- [Como usar](#-Como-usar-🔧)
+- [Closure](#-Closure-)
+- [Currying](#-Currying-)
+- [High Order Function](#-High-Order-Function-)
+- [Anonymous Function](#-Anonymous-Function-)
+- [Como usar](#-Como-usar-)
 
 
 ---
