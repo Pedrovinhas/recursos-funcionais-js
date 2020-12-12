@@ -16,20 +16,20 @@
 ---
 ## Índice
 
-- [Introdução](#-Introdução-)
-- [Closure](#-Closure-)
-- [Currying](#-Currying-)
-- [High Order Function](#-High-Order-Function-)
-- [Anonymous Function](#-Anonymous-Function-)
-- [Como usar](#-Como-usar-)
+- [**Introdução**](#-Introdução)  
+- [**Closure**](#-closure)  
+- [**Currying**](#-currying)
+- [**High Order Function**](#-High-Order-Function)
+- [**Anonymous Function**](#-Anonymous-Function)
+- [**Como usar**](#-Como-usar)
 
 
 ---
-## Introdução 🧾
+## 🧾 Introdução
 Trabalho desenvolvido durante a matéria de Paradigmas de Linguagens com o intuito de compreender alguns dos recursos funcionais incorporados por linguagens imperativas, e como elas servem para composição de programas.
 
 ---
-## Closure 🔒 
+## 🔒 Closure  
 Quando uma função lembra seu escopo léxico (onde a função foi definida) mesmo quando a função é executada fora desse escopo. As variáveis definidas fora da função são disponíveis dentro da função, como cada escopo tem acesso ao que está fora dela. Portanto temos um código assincrono, enclausurado e independente.
 #### Aplicabilidade
 * Uso para request, quando termina, envia uma mensagem..
@@ -38,14 +38,14 @@ Quando uma função lembra seu escopo léxico (onde a função foi definida) mes
 
 ---
 
-## Currying 🍛
+## 🍛 Currying 
 Currying reduz a reprodução da função, quebrando em partes. Dessa forma transformamos a função que recebe múltiplos argumentos ou parâmetros, e os acessamos um de cada vez.
 
 #### Aplicabilidade
 * Criação de funções específicas.
 * Partial application (função é aplicada a somente uma parte dos parâmetros, e retorna outra função que espera os parametros restantes).
 ---
-## High Order Function 👑
+## 👑 High Order Function 
 
 Uma função é de ordem superior quando passamos uma função como parâmetro, como se fosse um valor qualquer, ou quando retornamos uma função como resultado.
 #### Aplicabilidade
@@ -57,8 +57,8 @@ Uma função é de ordem superior quando passamos uma função como parâmetro, 
 * sort.
 
 ---
-## Anonymous Function 🕶
-Além de não tem identificação no escopo de execução, as funções anônimas também podem ser atribuídas a variáveis e acessadas através delas. Possuem maior flexibilidade para ser encaixada dentro de outras funções e dão clareza ao código.
+## 🕶 Anonymous Function 
+Além de não ter identificação no escopo de execução, as funções anônimas também podem ser atribuídas a variáveis e acessadas através delas. Possuem maior flexibilidade para ser encaixada dentro de outras funções e dão clareza ao código.
 #### Aplicabilidade
 * map.
 * filter.
@@ -66,10 +66,10 @@ Além de não tem identificação no escopo de execução, as funções anônima
 * groupby.
 ---
 
-## Como usar 🔧
+## 🔧 Como usar 
 ```bash
 # Clone o repositório
-git clone https
+git clone https://github.com/Pedrovinhas/recursos-funcionais-js
 
 # Entre no diretório
 $ cd paradigmas js
